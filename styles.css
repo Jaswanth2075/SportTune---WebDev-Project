@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing : border-box;
+}
+body{
+    background-color: rgb(21, 21, 21);
+    color:rgb(169, 29, 58);
+    font-family : "Poppins" , sans-serif;
+}
+.navbar{
+    position : absolute;
+    top : 0;
+    width : 100%;
+    display : flex;
+    justify-content: space-between;
+    padding : 3% 5%;
+    z-index : 10;
+    border : 10px solid rgb(169, 29, 58);
+    border-radius: 10px;
+}
+.navbar_brand{
+    width:100px;
+    height : 100%;
+}
+.brand-logo{
+    width : 100%;
+    height : 100%;
+}
+.sport_dropdown{
+    background : transparent;
+    border : none;
+    color : white;
+}
+.sport_dropdown : focus{
+    outline : none;
+}
+.sport_dropdown option{
+    background-color: black;
+}
+.dropdown_container{
+    border: 1px solid white;
+    padding :0.4rem;
+    border-radius:4px;
+    background: rgba(0,0,0,0.4);
+}
+.signin_button{
+    background-color:rgb(169, 29, 58);
+    border : 1px solid rgb(238, 238, 238);
+    color : rgb(238, 238, 238);
+    padding : 0.25rem 0.rem;
+    border-radius : 4px;
+}
+.navbar_nav_items{
+    display: flex;
+    gap : 10px;
+}
+.cricket{
+    position : absolute;
+    top : 200px;
+    width : 100%;
+    display : flex;
+    justify-content: space-between;
+    padding : 3% 5%;
+    z-index : 10;
+    border : 10px solid rgb(238, 238, 238);
+    border-radius: 10px;
+}
+.cricket_matches{
+    width:500px;
+    
+}
+.cricket_table{
+    width:1200px;
+    border:1px solid white;
+    padding : 20px;
+    border-radius: 10px;
+    margin : 20px;
+
+}
+.cricket_row{
+    width : 100%;
+    height:200px;
+    display : flex;
+    gap : 50px;
+}
+.one{
+    background-color:rgb(238, 238, 238);
+    box-shadow: 10px red;
+    height : 200px;
+    width : 200px;
+    border-radius: 20px;
+    background-image: url("wc.jpg");
+    
+}
+.cricket_table .one:hover{
+    height: 250px;
+    width : 250px;
+    border : 10px solid yellow;
+    opacity: 50%;
+}
+.two{
+    background-color:rgb(238, 238, 238);
+    box-shadow: 10px red;
+    height : 200px;
+    width : 200px;
+    border-radius: 20px;
+    background-image: url("ipl.jpg");
+    
+
+}
+.cricket_table .two:hover{
+    height: 250px;
+    width : 250px;
+    border : 10px solid yellow;
+    opacity : 50%;
+}
+.three{
+    background-color:rgb(238, 238, 238);
+    box-shadow: 10px red;
+    height : 200px;
+    width : 200px;
+    border-radius: 20px;
+    background-image: url("ashes.jpg");
+    
+
+}
+.cricket_table .three:hover{
+    height: 250px;
+    width : 250px;
+    border : 10px solid yellow;
+    opacity : 50%;
+}
+.four{
+    background-color:rgb(238, 238, 238);
+    box-shadow: 10px red;
+    height : 200px;
+    width : 200px;
+    border-radius: 20px;
+    background-image: url("asiacup.jpg");
+    
+
+}
+.cricket_table .four:hover{
+    height: 250px;
+    width : 250px;
+    border : 10px solid yellow;
+    opacity : 50%
+}
+.match_box{
+    position:absolute;
+    top : 630px;
+    height : 400px;
+    width : 1600px;
+    border : 10px solid rgb(238, 238, 238);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap : 30px;
+    background: linear-gradient(to right ,blue,black , green);
+}
+.match-1{
+    height : 250px;
+    width : 300px ;
+    
+    background-image: url("indvspak.jpg");
+    
+}
+.match1_info{
+    height : 250px;
+    width : 300px ;
+    border : 1px solid white;
+
+}
